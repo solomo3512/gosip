@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jart/gosip/dialog"
-	"github.com/jart/gosip/dsp"
-	"github.com/jart/gosip/rtp"
-	"github.com/jart/gosip/sdp"
-	"github.com/jart/gosip/sip"
+	"github.com/solomo3512/gosip/dialog"
+	"github.com/solomo3512/gosip/dsp"
+	"github.com/solomo3512/gosip/rtp"
+	"github.com/solomo3512/gosip/sdp"
+	"github.com/solomo3512/gosip/sip"
 )
 
 func TestCallToEchoApp(t *testing.T) {
