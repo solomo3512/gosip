@@ -34,6 +34,7 @@ func (origin *Origin) Append(b *bytes.Buffer) {
 	if id == "" {
 		id = util.GenerateOriginID()
 	}
+	
 	b.WriteString("o=")
 	if origin.User == "" {
 		b.WriteString("-")
